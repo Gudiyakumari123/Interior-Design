@@ -1,0 +1,56 @@
+body{
+ background-image:url(front1.jpg);
+}
+h1{
+	color: maroon;
+	text-align: center;
+	padding-top: 180px;
+	padding-left: 500px;
+	font-size: 50px;
+	font-family: algerian;
+	position: absolute;
+}
+.main
+{
+	background-color: Tan;
+	text-align: center;	
+}
+.main a{
+	color: maroon;
+}
+.main a:hover{
+	color: yellow;
+}
+marquee{
+	color: maroon;
+	font-size: 30px;
+	padding-top: 500px;
+}
+.mark{
+	color: yellow;
+	font-size: 20px;
+	padding-bottom: 500px;
+}
+
+		.drop{
+			position: relative;
+			display: inline-block;
+			color: maroon;
+		}
+
+		.drop-con{
+			display: none;
+			position: absolute;
+			background-color: pink;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px ;
+			z-index: 1;
+		}
+		
+		
+
+		.drop:hover .drop-con{
+			display: block;
+		}
+
+
